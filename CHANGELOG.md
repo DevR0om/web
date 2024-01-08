@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Created the Project [Feat-1](https://github.com/DevR0om/web/pull/1)
-
+- Created Change log [Feat-2](https://github.com/DevR0om/web/pull/2)
 
 ### Fixed
 
