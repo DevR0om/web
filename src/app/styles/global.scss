@@ -1,0 +1,112 @@
+/* ---- Spaces ---- */
+$max-width: 1280px;
+$max-width-onboarding: 1028px;
+
+$spaces-xxs: 2px;
+$spaces-xs: 4px;
+$spaces-sm: 8px;
+$spaces-md: 16px;
+$spaces-lg: 24px;
+$spaces-xl: 32px;
+$spaces-xxl: 40px;
+$spaces-gi: 56px;
+$spaces-xg: 64px;
+
+/* ---- Border Radius ---- */
+$border-radius-xs: 2px;
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+
+/* ---- Fonts ---- */
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+
+/* ---- Colors ---- */
+$colors-primary-50: #fff2eb;
+$colors-primary-100: #fdd7c1;
+$colors-primary-200: #fdc4a3;
+$colors-primary-300: #fca97a;
+$colors-primary-400: #fb9860;
+$colors-primary-500: #fa7e38;
+$colors-primary-600: #e47333;
+$colors-primary-700: #b25928;
+$colors-primary-800: #8a451f;
+$colors-primary-900: #693518;
+
+$colors-secondary-50: #e6e7e7;
+$colors-secondary-100: #b3b4b6;
+$colors-secondary-200: #8e8f92;
+$colors-secondary-300: #5a5c60;
+$colors-secondary-400: #3a3d41;
+$colors-secondary-500: #090c12;
+$colors-secondary-600: #080b10;
+$colors-secondary-700: #06090d;
+$colors-secondary-800: #05070a;
+$colors-secondary-900: #040508;
+
+$colors-neutral-50: #ffffff;
+$colors-neutral-100: #f7f8f9;
+$colors-neutral-200: #f3f4f6;
+$colors-neutral-300: #eeeff2;
+$colors-neutral-400: #eaecef;
+$colors-neutral-500: #dee7f8;
+$colors-neutral-600: #b4c1d8;
+$colors-neutral-700: #adb9cf;
+$colors-neutral-800: #8a97ad;
+$colors-neutral-900: #576781;
+
+$colors-error-50: #ffebeb;
+$colors-error-100: #fdc1c1;
+$colors-error-200: #fda3a3;
+$colors-error-300: #fc7a7a;
+$colors-error-400: #fb6060;
+$colors-error-500: #fa3838;
+$colors-error-600: #e43333;
+$colors-error-700: #b22828;
+$colors-error-800: #8a1f1f;
+$colors-error-900: #691818;
+
+$colors-primary: $colors-primary-500;
+$colors-secondary: $colors-secondary-500;
+
+$colors-font: $colors-secondary-500;
+$colors-font-secondary: $colors-neutral-800;
+
+$colors-placeholder: $colors-neutral-800;
+$colors-border: $colors-neutral-500;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+body,
+input,
+button,
+textarea {
+  color: $colors-primary; /* default color example */
+
+  font-family: "Roboto", sans-serif; /* default font example */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+}
