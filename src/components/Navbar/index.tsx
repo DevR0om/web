@@ -1,6 +1,7 @@
 import LogoUi from '../UI/LogoUi';
 import NavList from '../UI/NavList/index.';
 import styles from './styles.module.scss';
+
 interface NavbarProps {
     lang: any;
 }
