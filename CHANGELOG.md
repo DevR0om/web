@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added multiple language support [Feat-17](https://github.com/DevR0om/web/issues/17)
 - Added image main [Feat-23](https://github.com/DevR0om/web/issues/23)
 - Added logoUi [Feat-26](https://github.com/DevR0om/web/issues/26)
+- Create a main title [feat-33](https://github.com/DevR0om/web/issues/33)
 
 
 ### Fixed
