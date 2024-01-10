@@ -8,6 +8,7 @@
       ├── README.md - You are here!   
       ├── locales/ # Languages items
       │      └── # Start file names with lowercase letters ex: en.json
+      ├── public/
       ├── src/
       │   ├──app/
       │   │   └──[lang]       
@@ -18,8 +19,6 @@
       │   │                  └── page.tsx
       │   │                  └── styles.module.scss
       │   ├── midleware.ts # Use lowercase letters in middleware 
-      │   ├── assets/
-      │   │   └── images/
       │   ├── styles/  # global styles
       │   │   └── global.scss # Always use lowercase letters in styles
       │   ├── components/
