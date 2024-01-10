@@ -1,10 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <h1>Hello word!</h1>
-    </main>
-  )
+import React from "react";
+import { getTranslation } from "../../../locales/utils/getTranslation";
+import NavBar from "@/components/Navbar";
+import '../styles/global.scss';
+interface pageProps {
+  params: any;
 }
+async function Page({ params }: pageProps) {
+  const lang = await getTranslation(params.lang);
+  return (
+    <div>
+      <NavBar lang={lang}/>
+    </div>
+  );
+}
+
+export default Page;
