@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Create License [Feat-6](https://github.com/DevR0om/web/issues/6)
 - Create globals styles [Feat-12](https://github.com/DevR0om/web/issues/12)
 - Added multiple language support [Feat-17](https://github.com/DevR0om/web/issues/17)
+- Added image main [Feat-23](https://github.com/DevR0om/web/issues/23)
 
 ### Fixed
 
