@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const path = require('path');
 const withImages = require('next-images');
 
@@ -7,6 +6,18 @@ module.exports = withImages({
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    domains: ['localhost'],
+      domains: ['i.ibb.co'],
+      path: '/_next/image',
+      loader: 'default',
+      loaderFile: '',
+      disableStaticImages: true,
+      minimumCacheTTL: 60,
+      formats: ['image/webp', 'image/avif'],
+      dangerouslyAllowSVG: false,
+      contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+      contentDispositionType: 'inline',
+      remotePatterns: [],
+      unoptimized: false,
+  
   },
 });
