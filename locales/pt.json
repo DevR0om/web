@@ -4,5 +4,7 @@
     "about": "Sobre",
     "services": "Serviços",
     "contact": "contato",
-    "textTitle":"DevRoom"
+    "textTitle":"DevRoom",
+    "aboutTitle": "Sobre",
+    "subAboutText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quasi illum quaerat fuga tempora at, fugit sunt laboriosam ipsum maiores vel sit, saepe iusto aliquid, alias porro enim consequatur consequuntur."
   }

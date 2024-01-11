@@ -13,3 +13,4 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
     </html>
   );
 }
+
