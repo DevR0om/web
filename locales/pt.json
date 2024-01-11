@@ -3,5 +3,6 @@
     "init": "inicio",
     "about": "Sobre",
     "services": "Serviços",
-    "contact": "contato"
+    "contact": "contato",
+    "buttonMainText": "Contate agora"
   }

@@ -3,5 +3,6 @@
     "init": "Home",
     "about": "about",
     "services": "services",
-    "contact": "contact"
+    "contact": "contact",
+    "buttonMainText": "Contact now"
   }
