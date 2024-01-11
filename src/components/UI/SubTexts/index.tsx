@@ -1,3 +1,4 @@
+import styles from './styles.module.scss';
 
 interface SubTextsProps{
     colorText: string;
@@ -7,7 +8,7 @@ interface SubTextsProps{
 }
 export default function SubTexts({colorText, family, fontSize, text}: SubTextsProps){
     return(
-        <h2  style={{ color: colorText, fontSize, fontFamily: family }}>
+        <h2   className={styles.subText} style={{ color: colorText, fontSize, fontFamily: family }}>
             {text}
         </h2>
     )

@@ -8,7 +8,7 @@ interface AboutProps{
 }
 
 export default function About({lang}: AboutProps) {
-    const imgPath = "https://www.freecodecamp.org/news/content/images/size/w2000/2023/01/thumbnail.jpeg";
+    const imgPath = "https://w0.peakpx.com/wallpaper/184/644/HD-wallpaper-css-coding-ultra-computers-hardware-internet-laptop-working-technology-computer-code-programming-software-development-workplace-website-sourcecode.jpg";
     return (
         <div className={styles.about_container}>
             <div className={styles.aboutTextContainer}>
@@ -30,13 +30,17 @@ export default function About({lang}: AboutProps) {
                 </div>
 
             </div>
+
+            <div className={styles.imgContainer}>
             <div className={styles.imageAbout}>
                 <ImageUi 
                 alt='Imagem lateral texto'
-                height={248}
-                width={248}
+                height={1980}
+                width={1080}
                 path={imgPath}
                 />
+            </div>
+
             </div>
         </div>
     )

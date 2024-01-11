@@ -17,10 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added multiple language support [Feat-17](https://github.com/DevR0om/web/issues/17)
 - Added image main [Feat-23](https://github.com/DevR0om/web/issues/23)
 - Added logoUi [Feat-26](https://github.com/DevR0om/web/issues/26)
-- Create a main title [feat-33](https://github.com/DevR0om/web/issues/33)
-- Create a about component [feat-39](https://github.com/DevR0om/web/issues/39)
-- Create a about text and subtext [feat-44](https://github.com/DevR0om/web/issues/44)
-- Add image UI [feat-45](https://github.com/DevR0om/web/issues/45)
+- Create a main title [Feat-33](https://github.com/DevR0om/web/issues/33)
+- Create a about component [Feat-39](https://github.com/DevR0om/web/issues/39)
+- Create a about text and subtext [Feat-44](https://github.com/DevR0om/web/issues/44)
+- Add image UI [Feat-45](https://github.com/DevR0om/web/issues/45)
+- Adjusted styles in about component [Feat-46](https://github.com/DevR0om/web/issues/46)
 
 
 ### Fixed
