@@ -28,7 +28,7 @@ export default function About({lang}: AboutProps) {
                     text={lang.subAboutText}
                     />
                 </div>
-
+<div></div>
             </div>
 
             <div className={styles.imgContainer}>
