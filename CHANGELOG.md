@@ -20,8 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Create a main title [feat-33](https://github.com/DevR0om/web/issues/33)
 - Create a about component [feat-39](https://github.com/DevR0om/web/issues/39)
 - Create a about text and subtext [feat-44](https://github.com/DevR0om/web/issues/44)
+- Add image UI [feat-45](https://github.com/DevR0om/web/issues/45)
 
 
 ### Fixed
 
-- Adjusted README [MBU-2](https://memebattle.atlassian.net/browse/MBU-2)
