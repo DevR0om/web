@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import styles from './styles.module.scss';
 interface imageUiProps{
     alt: string;
     path: string;
@@ -13,6 +13,7 @@ export default function ImageUi({alt, height, path, width}: imageUiProps){
         src={path}
         width={width}
         height={height}
+        className={styles.imageUI}
         />
     )
 }
