@@ -1,16 +1,15 @@
-import styles from './styles.module.scss';
 interface TitleProps {
-    lang: any;
     colorText: string;
     fontSize: string;
     family: string;
+    text:string;
 }
 
-export default function TitleText({ lang, colorText, fontSize, family }: TitleProps) {
+export default function TitleText({ colorText, fontSize, family, text }: TitleProps) {
 
     return (
-        <h1 className={styles.title} style={{ color: colorText, fontSize, fontFamily: family }}>
-            {lang.textTitle}
+        <h1 style={{ color: colorText, fontSize, fontFamily: family }}>
+            {text}
         </h1>
     );
 }

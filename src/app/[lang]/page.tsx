@@ -12,7 +12,7 @@ async function Page({params}: pageProps) {
   return <div>
     <NavBar lang={lang}/>
     <Main  lang={lang}/>
-    <About />
+    <About lang={lang}/>
   </div>
 }
 

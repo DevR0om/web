@@ -9,7 +9,7 @@ interface MainProps{
 export default function Main({ lang }: MainProps) {
     return (
         <div className={styles.main_container}>
-            <TitleText lang={lang} colorText='white' fontSize='54px' family='Gill Sans'/>
+            <TitleText text={lang.textTitle} colorText='white' fontSize='54px' family='Gill Sans'/>
         </div>
     );
 }
