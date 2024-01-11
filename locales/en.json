@@ -1,10 +1,3 @@
 {
-    "hello": "Hello word!",
-    "init": "Home",
-    "about": "about",
-    "services": "services",
-    "contact": "contact",
-    "textTitle":"DevRoom",
-    "aboutTitle": "About",
-    "subAboutText": "Lorem em ingles lorem dolor sit, amet consectetur adipisicing elit. Id quasi illum quaerat fuga tempora at, fugit sunt laboriosam ipsum maiores vel sit, saepe iusto aliquid, alias porro enim consequatur consequuntur."
+    "hello": "Hello word!"
   }
