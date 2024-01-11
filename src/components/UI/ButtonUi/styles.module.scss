@@ -1,0 +1,12 @@
+.buttonUi{
+    color: var(--colors-secondary-800);
+    background-color: var(--colors-secondary-50);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+.buttonUi:hover{
+    color: var(--colors-secondary-50);
+    background-color: var(--colors-secondary-800);
+}
