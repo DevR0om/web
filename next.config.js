@@ -6,7 +6,7 @@ module.exports = withImages({
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-      domains: ['i.ibb.co'],
+      domains: ['i.ibb.co', 'w0.peakpx.com'],
       path: '/_next/image',
       loader: 'default',
       loaderFile: '',
