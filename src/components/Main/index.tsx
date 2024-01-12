@@ -12,10 +12,9 @@ interface MainProps{
 export default function Main({ lang }: MainProps) {
     return (
         <div className={styles.main_container}>
-            <TitleText text={lang.textTitle} colorText='white' fontSize='54px' family='Gill Sans'/>
+            <TitleText text={lang.textTitle} colorText='white' fontSize='54px' />
             <ButtonUI fontSize='20px' height={48} width={140} text={lang.textButton}/>
-            <SubTexts colorText='white' fontSize='28px' family='Gill Sans' text={lang.subMainText}/>
-
+            <SubTexts colorText='white' fontSize='28px' text={lang.subMainText}/>
         </div>
     );
 }

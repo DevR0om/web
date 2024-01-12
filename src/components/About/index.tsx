@@ -15,15 +15,13 @@ export default function About({lang}: AboutProps) {
                 <div className={styles.titleText}>
                     <TitleText 
                     colorText='black'
-                    family='Gill Sans'
                     fontSize='48px'
                     text={lang.aboutTitle}
                     />
                     </div>
                 <div className={styles.aboutText}>
                     <SubTexts 
-                    colorText='black'
-                    family='Gill Sans'
+                    colorText='black'     
                     fontSize='24px'
                     text={lang.subAboutText}
                     />
