@@ -15,8 +15,8 @@ export default function Main({ lang }: MainProps) {
         <div className={styles.main_container}>
             </div>
             <div className={styles.main_box}>
-                <TitleText text={lang.textTitle} colorText='white' fontSize='54px' family='Gill Sans' />
-                <SubTexts colorText='white' fontSize='28px' family='Gill Sans' text={lang.subMainText} />
+                <TitleText text={lang.textTitle} colorText='white' fontSize='54px' />
+                <SubTexts colorText='white' fontSize='28px' text={lang.subMainText} />
                 <ButtonUI fontSize='20px' height={48} width={140} text={lang.textButton} />
         </div>
             <TitleText text={lang.textTitle} colorText='white' fontSize='54px' />
