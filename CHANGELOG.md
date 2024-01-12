@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add image UI [Feat-45](https://github.com/DevR0om/web/issues/45)
 - Adjusted styles in about component [Feat-46](https://github.com/DevR0om/web/issues/46)
 - Added a text in the main component [Feat-38](https://github.com/DevR0om/web/issues/38)
+- Create a projects component [Feat-53](https://github.com/DevR0om/web/issues/53)
 
 
 ### Fixed
