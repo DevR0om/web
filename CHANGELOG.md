@@ -24,6 +24,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Adjusted styles in about component [Feat-46](https://github.com/DevR0om/web/issues/46)
 - Added a text in the main component [Feat-38](https://github.com/DevR0om/web/issues/38)
 - Ajusted styles main [Feat-42](https://github.com/DevR0om/web/issues/42)
+- Create a projects component [Feat-53](https://github.com/DevR0om/web/issues/53)
+- Create a projects template [Feat-54](https://github.com/DevR0om/web/issues/54)
+
 
 
 ### Fixed

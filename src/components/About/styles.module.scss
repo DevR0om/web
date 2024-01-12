@@ -7,13 +7,15 @@
     .aboutTextContainer{
         width: 88em;
         height: 100%;
-        padding: 4em;
+        padding: 2em;
         background-color: var(--colors-secondary-50);
         .titleText{
             margin-top: 2em;
+            
         }
         .aboutText{
             margin-top: 2em;
+            margin-right: 2em;
         }
     }
     .imgContainer{

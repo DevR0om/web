@@ -19,6 +19,9 @@ export default function Main({ lang }: MainProps) {
                 <SubTexts colorText='white' fontSize='28px' family='Gill Sans' text={lang.subMainText} />
                 <ButtonUI fontSize='20px' height={48} width={140} text={lang.textButton} />
         </div>
+            <TitleText text={lang.textTitle} colorText='white' fontSize='54px' />
+            <ButtonUI fontSize='20px' height={48} width={140} text={lang.textButton}/>
+            <SubTexts colorText='white' fontSize='28px' text={lang.subMainText}/>
         </div>
     );
 }
