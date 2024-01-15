@@ -1,16 +1,22 @@
-import styles from "./styles.module.scss"
-interface ButtonUI{
+import Link from "next/link";
+import styles from "./styles.module.scss";
+
+interface ButtonUIProps {
     text: string;
     fontSize: string;
     width: number;
     height: number;
-
+    localPath: string;
 }
 
- export default function ButtonUI({width, height, text, fontSize}: ButtonUI) {
-    return(
-        <button className={styles.buttonUi} style={{ fontSize, width, height }}>
-            {text}
-        </button>
-    )
+const ButtonUI: React.FC<ButtonUIProps> = ({ width, height, text, fontSize, localPath }) => {
+    return (
+        <div className={styles.buttonUi} style={{ fontSize, width, height }}>
+            <Link href={localPath}>
+                {text}
+            </Link>
+        </div>
+    );
 }
+
+export default ButtonUI;
