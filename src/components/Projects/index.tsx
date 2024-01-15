@@ -18,7 +18,7 @@ export default function Projects({ lang }: ProjectsProps) {
   const pathSrc: PathSrcProps = {
     web: "https://www.blog.omertex.com/wp-content/uploads/2019/11/UI-design-15_optimized.png",
     backend: "https://wallpapercave.com/wp/wp10318694.png",
-    mobile: "https://educationtribe.in/wp-content/uploads/2020/11/Android-application-development.png"
+    mobile: "https://i.postimg.cc/sX3H5D6M/mobile.png"
   };
 
   const titleTextItem: Record<string, string> = {
