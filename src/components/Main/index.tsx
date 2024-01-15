@@ -20,6 +20,7 @@ export default function Main({ lang }: MainProps) {
           height={48}
           width={140}
           text={lang.textButton}
+          localPath="/main"
         />
       </div>
     </div>

@@ -73,6 +73,7 @@ export default function Projects({ lang }: ProjectsProps) {
                 height={48}
                 width={140}
                 text={lang.buttonProject}
+                localPath='/projects'
               />
             </div>
           </div>
