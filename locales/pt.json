@@ -1,4 +1,16 @@
 {
+  "hello": "Ola mundo!",
+  "init": "inicio",
+  "about": "Sobre",
+  "services": "Serviços",
+  "contact": "contato",
+  "textTitle": "DevRoom",
+  "aboutTitle": "Sobre",
+  "subAboutText": "Seja bem-vindo à nossa equipe dedicada à transformação de ideias em realidade digital. Com profundo conhecimento em HTML, CSS, e JavaScript, construímos bases sólidas, elevando a experiência do usuário. Utilizando tecnologias modernas como TypeScript, ReactJS, Next.js e Node.js, desenvolvemos soluções eficientes e escaláveis, proporcionando consistência e desempenho excepcionais de ponta a ponta. Estendemos nossa expertise ao mobile, destacando-nos em React Native, Firebase, Sass e Styled Components. Do frontend ao backend, cada linha de código reflete nosso compromisso com a inovação e qualidade. Junte-se a nós nesta jornada, onde a excelência é a norma e cada aplicação é uma experiência marcante.",
+  "textButton": "Contate aqui",
+  "subMainText": "Do papel à prática.",
+  "projectTitle": "Projetos",
+  "buttonProject": "Veja mais",
     "hello": "Ola mundo!",
     "init": "inicio",
     "about": "Sobre",
@@ -19,12 +31,95 @@
     "emailsub": "Email: email@gmail.com",
     "subemail": "Digite seu email",
 
-    "projects":{
-      "titleProjectsFront": "Desenvolvimento Front-End",
-      "titleProjectsBack": "Desenvolvimento Back-End",
-      "titleProjectsMobile": "Desenvolvimento Mobile",
-      "subtTextProjectFront": "Tecnologias utilizadas no desenvolvimento front-end: React, Next, Typescript, javascript e sass.",
-      "subtTextProjectBack": "Tecnologias utilizadas no desenvolvimento Back end: Nodejs, axios, firebase, prisma e postgresql.",
-      "subtTextProjectMobile": "Tecnologias utilizadas em desenvolvimento mobile: React native, styled components, firebase."
+  "projects": {
+    "titleProjectsFront": "Desenvolvimento Front-End",
+    "titleProjectsBack": "Desenvolvimento Back-End",
+    "titleProjectsMobile": "Desenvolvimento Mobile",
+    "subtTextProjectFront": "Tecnologias utilizadas no desenvolvimento front-end: React, Next, Typescript, javascript e sass.",
+    "subtTextProjectBack": "Tecnologias utilizadas no desenvolvimento Back end: Nodejs, axios, firebase, prisma e postgresql.",
+    "subtTextProjectMobile": "Tecnologias utilizadas em desenvolvimento mobile: React native, styled components, firebase."
+  },
+  "products": {
+    "select": "Gostei deste plano",
+    "coin": "R$",
+    "text": "até",
+    "session": "seções",
+    "web": {
+      "title": "Desenvolvimento Web",
+      "descriptionTitle": "Site Profissional",
+      "descriptionSubTitle": "texto de teste",
+      "descriptionText": "Cada site é único. Somos desenvolvedores especializados e prontos para criar soluções personalizadas que atendam às suas necessidades específicas. Desde plataformas interativas até aplicativos inovadores, para transformar sua visão em uma experiência digital única.",
+      "details": {
+        "plan": {
+          "title": "Plano",
+          "subTitle": {
+            "landing": "Landing Page Simples",
+            "landingPers": "Landing Page Personalizada",
+            "multi": "Multipaginas + blog",
+            "ecommerce": "E-commerce"
+          },
+          "value": {
+            "initial": "350",
+            "mid": "650",
+            "blog": "1.098",
+            "ecommerce": "5.000"
+          },
+          "utils": {
+            "landing": "Landing Page",
+            "template": "Template Profissional",
+            "responsive": "Site adaptado para celular",
+            "domain": "Configuração de dominio no Google.",
+            "blog": "Site de noticias Blog",
+            "ecommerce": "Plataforma de vendas E-commerce"
+          }
+        }
+      }
+    },
+    "backend": {
+      "title": "Desenvolvimento Backend",
+      "description": "A agilidade é a chave no mundo digital em constante evolução. Adotamos metodologias ágeis para garantir que o desenvolvimento do seu backend seja rápido e eficaz. ",
+      "details": {
+        "plan": {
+          "title": "Plano",
+          "subTitle": {
+            "api": "API RESTful",
+            "database": "Banco de Dados Otimizado",
+            "scalability": "Escalabilidade Dinâmica"
+          },
+          "framework": "Framework Node.js",
+          "deployment": "Implantação Rápida",
+          "integrationFirebase": "Integração com Firebase",
+          "userManagement": "Gerenciamento de Usuários",
+          "databaseCommunication": "Comunicação com Banco de Dados",
+          "blogPosting": "Gerenciamento de Blogs Dinâmicos",
+          "ecommerce": "Plataforma de E-commerce",
+          "inventoryManagement": "Gerenciamento de Estoque",
+          "orderProcessing": "Processamento de Pedidos",
+          "customization": "Customizações Específicas do Projeto"
+        }
+      }
+    },
+    "mobile": {
+      "title": "Desenvolvimento Mobile",
+      "description": "Crie experiências incríveis para dispositivos móveis. Oferecemos soluções personalizadas para atender às suas necessidades específicas.",
+      "details": {
+        "plan": {
+          "title": "Plano",
+          "subTitle": {
+            "hybrid": "Desenvolvimento Híbrido",
+            "responsive": "Design Responsivo"
+          },
+          "framework": "Framework React Native",
+          "deployment": "Implantação Rápida",
+          "integrationFirebase": "Integração com Firebase",
+          "userAuthentication": "Autenticação de Usuário Segura",
+          "offlineSupport": "Suporte Offline",
+          "pushNotifications": "Notificações Push",
+          "ecommerce": "Funcionalidades de E-commerce",
+          "blogPosting": "Postagem de Blogs Dinâmicos",
+          "customization": "Customizações Específicas do Projeto"
+        }
+      }
     }
   }
+}
