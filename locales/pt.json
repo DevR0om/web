@@ -11,6 +11,13 @@
     "subMainText": "Do papel à prática.",
     "projectTitle": "Projetos",
     "buttonProject": "Veja mais",
+    "addresstTitle": "Endereço",
+    "phoneTitle": "Contato",
+    "emailTitle": "Email",
+    "subcontact": "Sapiranga-Rs",
+    "subphone": "Tel (51)0000-0000",
+    "emailsub": "Email: email@gmail.com",
+    "subemail": "Digite seu email",
 
     "projects":{
       "titleProjectsFront": "Desenvolvimento Front-End",

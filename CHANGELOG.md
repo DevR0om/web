@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ajusted styles main [Feat-42](https://github.com/DevR0om/web/issues/42)
 - Create a projects component [Feat-53](https://github.com/DevR0om/web/issues/53)
 - Create a projects template [Feat-54](https://github.com/DevR0om/web/issues/54)
+- Creat a footer [Feat-60](https://github.com/DevR0om/web/issues/60)
 
 
 
