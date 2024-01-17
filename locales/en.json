@@ -1,23 +1,102 @@
 {
-    "hello": "Hello word!",
-    "init": "Home",
-    "about": "about",
-    "services": "services",
-    "contact": "contact",
-    "textTitle":"DevRoom",
-    "aboutTitle": "About",
-    "subAboutText": "Welcome to our team dedicated to turning ideas into digital reality. With deep expertise in HTML, CSS, and JavaScript, we build strong foundations, enhancing the user experience. Leveraging modern technologies like TypeScript, ReactJS, Next.js, and Node.js, we develop efficient and scalable solutions, providing exceptional consistency and performance end-to-end. We extend our proficiency to mobile, excelling in React Native, Firebase, Sass, and Styled Components. From frontend to backend, each line of code reflects our commitment to innovation and quality. Join us on this journey where excellence is the norm, and each application is a remarkable experience.",
-    "textButton": "Contact Here",
-    "subMainText": "From Paper to Practice.",
-    "projectTitle": "Projects",
-    "buttonProject": "View more",
-
-    "projects":{
-      "titleProjectsFront": "Development Front-End",
-      "titleProjectsBack": "Development Back-End",
-      "titleProjectsMobile": "Development Mobile",
-      "subtTextProjectFront": "Technologies used in development front-end: React, Next, Typescript, javascript e sass.",
-      "subtTextProjectBack": "Technologies used in development Back end: Nodejs, axios, firebase, prisma e postgresql.",
-      "subtTextProjectMobile": "Technologies used in development mobile: React native, styled components, firebase."
+  "hello": "Hello World!",
+  "init": "Home",
+  "about": "About",
+  "services": "Services",
+  "contact": "Contact",
+  "textTitle": "DevRoom",
+  "aboutTitle": "About",
+  "subAboutText": "Welcome to our team dedicated to transforming ideas into digital reality. With deep knowledge in HTML, CSS, and JavaScript, we build solid foundations, elevating the user experience. Utilizing modern technologies like TypeScript, ReactJS, Next.js, and Node.js, we develop efficient and scalable solutions, providing exceptional end-to-end consistency and performance. We extend our expertise to mobile, excelling in React Native, Firebase, Sass, and Styled Components. From frontend to backend, each line of code reflects our commitment to innovation and quality. Join us on this journey, where excellence is the norm, and each application is a remarkable experience.",
+  "textButton": "Contact Us",
+  "subMainText": "From paper to practice.",
+  "projectTitle": "Projects",
+  "buttonProject": "See More",
+  "projects": {
+    "titleProjectsFront": "Front-End Development",
+    "titleProjectsBack": "Back-End Development",
+    "titleProjectsMobile": "Mobile Development",
+    "subtTextProjectFront": "Technologies used in front-end development: React, Next, TypeScript, JavaScript, and Sass.",
+    "subtTextProjectBack": "Technologies used in back-end development: Node.js, Axios, Firebase, Prisma, and PostgreSQL.",
+    "subtTextProjectMobile": "Technologies used in mobile development: React Native, Styled Components, Firebase."
+  },
+  "products": {
+    "select": "Liked this plan",
+    "coin": "$",
+    "web": {
+      "title": "Web Development",
+      "descriptionTitle": "Professional Website",
+      "descriptionSubTitle": "Test text",
+      "descriptionText": "Every website is unique. We are specialized developers ready to create customized solutions that meet your specific needs. From interactive platforms to innovative applications, to transform your vision into a unique digital experience.",
+      "details": {
+        "plan": {
+          "title": "Plan",
+          "subTitle": {
+            "landing": "Simple Landing Page",
+            "landingPers": "Customized Landing Page",
+            "multi": "Multi-pages + Blog",
+            "ecommerce": "E-commerce"
+          },
+          "value":{
+              "initial": "300",
+              "mid": "600",
+              "blog": "1000",
+              "ecommerce": "5000"
+          }, "utils": {
+            "landing": "Landing Page",
+            "template": "Professional Template",
+            "responsive": "Mobile Responsive Site",
+            "domain": "Domain Configuration on Google",
+            "blog": "News Blog Site",
+            "ecommerce": "E-commerce Sales Platform"
+          }
+        }
+      }
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Agility is the key in the ever-evolving digital world. We adopt agile methodologies to ensure that the development of your backend is fast and effective.",
+      "details": {
+        "plan": {
+          "title": "Plan",
+          "subTitle": {
+            "api": "RESTful API",
+            "database": "Optimized Database",
+            "scalability": "Dynamic Scalability"
+          },
+          "framework": "Node.js Framework",
+          "deployment": "Fast Deployment",
+          "integrationFirebase": "Firebase Integration",
+          "userManagement": "User Management",
+          "databaseCommunication": "Database Communication",
+          "blogPosting": "Dynamic Blog Management",
+          "ecommerce": "E-commerce Platform",
+          "inventoryManagement": "Inventory Management",
+          "orderProcessing": "Order Processing",
+          "customization": "Customizations Specific to the Project"
+        }
+      }
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Create amazing experiences for mobile devices. We offer customized solutions to meet your specific needs.",
+      "details": {
+        "plan": {
+          "title": "Plan",
+          "subTitle": {
+            "hybrid": "Hybrid Development",
+            "responsive": "Responsive Design"
+          },
+          "framework": "React Native Framework",
+          "deployment": "Fast Deployment",
+          "integrationFirebase": "Firebase Integration",
+          "userAuthentication": "Secure User Authentication",
+          "offlineSupport": "Offline Support",
+          "pushNotifications": "Push Notifications",
+          "ecommerce": "E-commerce Features",
+          "blogPosting": "Dynamic Blog Posting",
+          "customization": "Customizations Specific to the Project"
+        }
+      }
     }
   }
+}

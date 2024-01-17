@@ -69,11 +69,12 @@ export default function Projects({ lang }: ProjectsProps) {
             </div>
             <div className={styles.projectButton}>
               <ButtonUI
+                keyItem={key} 
                 fontSize='24px'
                 height={48}
                 width={140}
                 text={lang.buttonProject}
-                localPath='/projects'
+                localPath={`/products/${key}`}
               />
             </div>
           </div>
