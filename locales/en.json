@@ -1,4 +1,5 @@
 {
+
   "hello": "Hello World!",
   "init": "Home",
   "about": "About",
@@ -100,3 +101,34 @@
     }
   }
 }
+
+  "hello": "Hello word!",
+  "init": "Home",
+  "about": "about",
+  "services": "services",
+  "contact": "contact",
+  "textTitle": "DevRoom",
+  "aboutTitle": "About",
+  "subAboutText": "Welcome to our team dedicated to turning ideas into digital reality. With deep expertise in HTML, CSS, and JavaScript, we build strong foundations, enhancing the user experience. Leveraging modern technologies like TypeScript, ReactJS, Next.js, and Node.js, we develop efficient and scalable solutions, providing exceptional consistency and performance end-to-end. We extend our proficiency to mobile, excelling in React Native, Firebase, Sass, and Styled Components. From frontend to backend, each line of code reflects our commitment to innovation and quality. Join us on this journey where excellence is the norm, and each application is a remarkable experience.",
+  "textButton": "Contact Here",
+  "subMainText": "From Paper to Practice.",
+  "projectTitle": "Projects",
+  "buttonProject": "View more",
+  "addresstTitle": "Address",
+  "phoneTitle": "Contact",
+  "emailTitle": "Email",
+  "subcontact": "Sapiranga-Rs",
+  "subphone": "Tel (51)0000-0000",
+  "emailsub": "Email: email@gmail.com",
+  "subemail": "Type your e-mail",
+
+  "projects": {
+    "titleProjectsFront": "Development Front-End",
+    "titleProjectsBack": "Development Back-End",
+    "titleProjectsMobile": "Development Mobile",
+    "subtTextProjectFront": "Technologies used in development front-end: React, Next, Typescript, javascript e sass.",
+    "subtTextProjectBack": "Technologies used in development Back end: Nodejs, axios, firebase, prisma e postgresql.",
+    "subtTextProjectMobile": "Technologies used in development mobile: React native, styled components, firebase."
+  }
+}
+
