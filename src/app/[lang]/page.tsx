@@ -4,6 +4,7 @@ import NavBar from "@/components/Navbar";
 import Main from "@/components/Main";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
+import Footer from "../../components/Footer";
 
 interface pageProps {
   params: any;
@@ -16,6 +17,7 @@ async function Page({params}: pageProps) {
     <Main  lang={lang}/>
     <About lang={lang}/>
     <Projects lang={lang}/>
+    <Footer lang={lang}/>
   </div>
   )
 }
