@@ -32,9 +32,9 @@
     "text": "até",
     "session": "seções",
     "web": {
-      "title": "Desenvolvimento Web",
-      "descriptionTitle": "Site Profissional",
-      "descriptionSubTitle": "texto de teste",
+      "title": "Website Profissional",
+      "descriptionTitle": "Sua Marca, Seu Espaço Online",
+      "descriptionSubTitle": "Fale com um desenvolvedor",
       "descriptionText": "Cada site é único. Somos desenvolvedores especializados e prontos para criar soluções personalizadas que atendam às suas necessidades específicas. Desde plataformas interativas até aplicativos inovadores, para transformar sua visão em uma experiência digital única.",
       "details": {
         "plan": {
@@ -64,48 +64,64 @@
     },
     "backend": {
       "title": "Desenvolvimento Backend",
-      "description": "A agilidade é a chave no mundo digital em constante evolução. Adotamos metodologias ágeis para garantir que o desenvolvimento do seu backend seja rápido e eficaz. ",
+      "descriptionTitle": "A segurança para seu sistema.",
+      "descriptionSubTitle": "Fale com um desenvolvedor",
+      "descriptionText": "A agilidade é a chave no mundo digital em constante evolução. Adotamos metodologias ágeis para garantir que o desenvolvimento do seu backend seja rápido e eficaz. ",
       "details": {
         "plan": {
           "title": "Plano",
           "subTitle": {
-            "api": "API RESTful",
-            "database": "Banco de Dados Otimizado",
-            "scalability": "Escalabilidade Dinâmica"
+            "api": "Node.js",
+            "multi": "Gerenciamento de usuarios",
+            "blog": "Backend para site de noticias Blog",
+            "ecommerce": "Back end para E-commerce"
           },
-          "framework": "Framework Node.js",
-          "deployment": "Implantação Rápida",
-          "integrationFirebase": "Integração com Firebase",
-          "userManagement": "Gerenciamento de Usuários",
-          "databaseCommunication": "Comunicação com Banco de Dados",
-          "blogPosting": "Gerenciamento de Blogs Dinâmicos",
-          "ecommerce": "Plataforma de E-commerce",
-          "inventoryManagement": "Gerenciamento de Estoque",
-          "orderProcessing": "Processamento de Pedidos",
-          "customization": "Customizações Específicas do Projeto"
+          "value": {
+            "initial": "350",
+            "mid": "650",
+            "blog": "1.098",
+            "ecommerce": "5.000"
+          },
+          "utils": {
+            "database": "Prisma",
+            "customization": "Customizações Específicas do Projeto",
+            "databaseCommunication": "Comunicação com Banco de Dados",
+            "userManagement": "Gerenciamento de Usuários",
+            "blogPosting": "Gerenciamento de Blogs Dinâmicos",
+            "ecommerce": "Plataforma de E-commerce"
+          }
         }
       }
     },
     "mobile": {
       "title": "Desenvolvimento Mobile",
-      "description": "Crie experiências incríveis para dispositivos móveis. Oferecemos soluções personalizadas para atender às suas necessidades específicas.",
+      "descriptionTitle": "Seu sistema na palma da sua mâo",
+      "descriptionSubTitle": "Fale com um desenvolvedor",
+      "descriptionText": "Oferecemos sistemas personalizados que se adaptam às necessidades únicas do seu negócio, indo desde eficiência operacional com aplicativos de gestão interna até soluções centradas no cliente. Em um mundo cada vez mais mobile, nossa expertise se destaca na criação de experiências excepcionais para seus clientes e na maximização dos resultados na era mobile. Transforme seus processos internos e surpreenda seus clientes com soluções customizadas que garantem flexibilidade e inovação em todos os aspectos do seu empreendimento. Conte conosco para liderar sua jornada digital e posicionar seu negócio na vanguarda do sucesso na mobilidade.",
       "details": {
         "plan": {
           "title": "Plano",
           "subTitle": {
-            "hybrid": "Desenvolvimento Híbrido",
-            "responsive": "Design Responsivo"
+            "aplicationI": "Aplicativo simples",
+            "aplicationII": "Aplicativo + Firebase",
+            "aplicationIII": "Aplicativo + Firebase + Controle de usuarios",
+            "aplicationIV": "Aplicativo E-Commerce"
           },
-          "framework": "Framework React Native",
-          "deployment": "Implantação Rápida",
-          "integrationFirebase": "Integração com Firebase",
-          "userAuthentication": "Autenticação de Usuário Segura",
-          "offlineSupport": "Suporte Offline",
-          "pushNotifications": "Notificações Push",
-          "ecommerce": "Funcionalidades de E-commerce",
-          "blogPosting": "Postagem de Blogs Dinâmicos",
-          "customization": "Customizações Específicas do Projeto"
+          "value": {
+            "initial": "500",
+            "mid": "1000",
+            "blog": "1.500",
+            "ecommerce": "7.000"
+          },
+          "utils": {
+            "framework": "Framework React Native",
+            "customization": "Customizações Específicas do Projeto",
+            "responsive": "Adptado para diversas telas",
+            "integrationFirebase": "Integração com Firebase",
+            "blogPosting": "Controle de usuarios",
+            "ecommerce": "Funcionalidades de E-commerce"
         }
+      }
       }
     }
   }

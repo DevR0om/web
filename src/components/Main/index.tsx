@@ -17,11 +17,10 @@ export default function Main({ lang }: MainProps) {
         <SubTexts colorText="white" fontSize="28px" text={lang.subMainText} />
         <ButtonUI
           fontSize="20px"
-          height={48}
-          width={140}
+          height={'100%'}
+          width={"140"}
           text={lang.textButton}
           localPath="/main"
-          keyItem='main'
         />
       </div>
     </div>
