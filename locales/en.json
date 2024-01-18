@@ -1,108 +1,131 @@
 {
-  "hello": "Hello World!",
-  "init": "Home",
+  "hello": "Hello, world!",
+  "init": "start",
   "about": "About",
   "services": "Services",
-  "contact": "Contact us",
+  "contact": "Contact",
   "textTitle": "DevRoom",
   "aboutTitle": "About",
-  "subAboutText": "Welcome to our team dedicated to transforming ideas into digital reality. With deep knowledge in HTML, CSS, and JavaScript, we build solid foundations, elevating the user experience. Utilizing modern technologies like TypeScript, ReactJS, Next.js, and Node.js, we develop efficient and scalable solutions, providing exceptional end-to-end consistency and performance. We extend our expertise to mobile, excelling in React Native, Firebase, Sass, and Styled Components. From frontend to backend, each line of code reflects our commitment to innovation and quality. Join us on this journey, where excellence is the norm, and each application is a remarkable experience.",
-  "textButton": "Contact Us",
+  "subAboutText": "Welcome to our team dedicated to turning ideas into digital reality. With deep knowledge in HTML, CSS, and JavaScript, we build solid foundations, elevating the user experience. Using modern technologies like TypeScript, ReactJS, Next.js, and Node.js, we develop efficient and scalable solutions, providing exceptional end-to-end consistency and performance. We extend our expertise to mobile, excelling in React Native, Firebase, Sass, and Styled Components. From frontend to backend, every line of code reflects our commitment to innovation and quality. Join us on this journey where excellence is the norm, and each application is a remarkable experience.",
+  "textButton": "Contact us here",
   "subMainText": "From paper to practice.",
   "projectTitle": "Projects",
-  "buttonProject": "See More",
+  "buttonProject": "See more",
   "addresstTitle": "Address",
   "phoneTitle": "Contact",
   "subcontact": "Sapiranga-Rs",
   "subphone": "Tel (51)0000-0000",
   "emailsub": "Email: clovisantunes@gmail.com",
+  "emailTitle": "Email",
+  "subcontact": "Sapiranga-RS",
+  "subphone": "Tel (51) 0000-0000",
+  "emailsub": "Email: email@gmail.com",
+  "subemail": "Enter your email",
   "projects": {
-    "titleProjectsFront": "Front-End Development",
-    "titleProjectsBack": "Back-End Development",
-    "titleProjectsMobile": "Mobile Development",
-    "subtTextProjectFront": "Technologies used in front-end development: React, Next, TypeScript, JavaScript, and Sass.",
-    "subtTextProjectBack": "Technologies used in back-end development: Node.js, Axios, Firebase, Prisma, and PostgreSQL.",
-    "subtTextProjectMobile": "Technologies used in mobile development: React Native, Styled Components, Firebase."
+      "titleProjectsFront": "Front-End Development",
+      "titleProjectsBack": "Back-End Development",
+      "titleProjectsMobile": "Mobile Development",
+      "subtTextProjectFront": "Technologies used in front-end development: React, Next, TypeScript, JavaScript, and Sass.",
+      "subtTextProjectBack": "Technologies used in back-end development: Node.js, Axios, Firebase, Prisma, and PostgreSQL.",
+      "subtTextProjectMobile": "Technologies used in mobile development: React Native, Styled Components, Firebase."
   },
   "products": {
-    "select": "Liked this plan",
-    "coin": "$",
-    "web": {
-      "title": "Web Development",
-      "descriptionTitle": "Professional Website",
-      "descriptionSubTitle": "Test text",
-      "descriptionText": "Every website is unique. We are specialized developers ready to create customized solutions that meet your specific needs. From interactive platforms to innovative applications, to transform your vision into a unique digital experience.",
-      "details": {
-        "plan": {
-          "title": "Plan",
-          "subTitle": {
-            "landing": "Simple Landing Page",
-            "landingPers": "Customized Landing Page",
-            "multi": "Multi-pages + Blog",
-            "ecommerce": "E-commerce"
-          },
-          "value":{
-              "initial": "300",
-              "mid": "600",
-              "blog": "1000",
-              "ecommerce": "5000"
-          }, "utils": {
-            "landing": "Landing Page",
-            "template": "Professional Template",
-            "responsive": "Mobile Responsive Site",
-            "domain": "Domain Configuration on Google",
-            "blog": "News Blog Site",
-            "ecommerce": "E-commerce Sales Platform"
+      "select": "I like this plan",
+      "coin": "USD",
+      "text": "up to",
+      "session": "sessions",
+      "web": {
+          "title": "Professional Website",
+          "descriptionTitle": "Your Brand, Your Online Space",
+          "descriptionSubTitle": "Talk to a developer",
+          "descriptionText": "Every website is unique. We are specialized developers ready to create custom solutions that meet your specific needs. From interactive platforms to innovative applications, we transform your vision into a unique digital experience.",
+          "details": {
+              "plan": {
+                  "title": "Plan",
+                  "subTitle": {
+                      "landing": "Simple Landing Page",
+                      "landingPers": "Customized Landing Page",
+                      "multi": "Multi-pages + blog",
+                      "ecommerce": "E-commerce"
+                  },
+                  "value": {
+                      "initial": "350",
+                      "mid": "650",
+                      "blog": "1,098",
+                      "ecommerce": "5,000"
+                  },
+                  "utils": {
+                      "landing": "Landing Page",
+                      "template": "Professional Template",
+                      "responsive": "Mobile-optimized site",
+                      "domain": "Google domain setup",
+                      "blog": "News Blog Site",
+                      "ecommerce": "E-commerce Sales Platform"
+                  }
+              }
           }
-        }
+      },
+      "backend": {
+          "title": "Backend Development",
+          "descriptionTitle": "Security for Your System",
+          "descriptionSubTitle": "Talk to a developer",
+          "descriptionText": "Agility is the key in the constantly evolving digital world. We adopt agile methodologies to ensure that your backend development is fast and effective.",
+          "details": {
+              "plan": {
+                  "title": "Plan",
+                  "subTitle": {
+                      "api": "Node.js",
+                      "multi": "User Management",
+                      "blog": "Backend for News Blog Site",
+                      "ecommerce": "Backend for E-commerce"
+                  },
+                  "value": {
+                      "initial": "350",
+                      "mid": "650",
+                      "blog": "1,098",
+                      "ecommerce": "5,000"
+                  },
+                  "utils": {
+                      "database": "Prisma",
+                      "customization": "Project-Specific Customizations",
+                      "databaseCommunication": "Database Communication",
+                      "userManagement": "User Management",
+                      "blogPosting": "Dynamic Blog Management",
+                      "ecommerce": "E-commerce Platform"
+                  }
+              }
+          }
+      },
+      "mobile": {
+          "title": "Mobile Development",
+          "descriptionTitle": "Your System in the Palm of Your Hand",
+          "descriptionSubTitle": "Talk to a developer",
+          "descriptionText": "We offer customized systems that adapt to the unique needs of your business, ranging from operational efficiency with internal management apps to customer-centric solutions. In an increasingly mobile world, our expertise stands out in creating exceptional experiences for your customers and maximizing results in the mobile era. Transform your internal processes and delight your customers with customized solutions that ensure flexibility and innovation in all aspects of your business. Count on us to lead your digital journey and position your business at the forefront of mobile success.",
+          "details": {
+              "plan": {
+                  "title": "Plan",
+                  "subTitle": {
+                      "aplicationI": "Simple Application",
+                      "aplicationII": "Application + Firebase",
+                      "aplicationIII": "Application + Firebase + User Control",
+                      "aplicationIV": "E-Commerce Application"
+                  },
+                  "value": {
+                      "initial": "100",
+                      "mid": "500",
+                      "blog": "750",
+                      "ecommerce": "3.500"
+                  },
+                  "utils": {
+                      "framework": "React Native Framework",
+                      "customization": "Project-Specific Customizations",
+                      "responsive": "Adapted for various screens",
+                      "integrationFirebase": "Firebase Integration",
+                      "blogPosting": "User Control",
+                      "ecommerce": "E-commerce Features"
+                  }
+              }
+          }
       }
-    },
-    "backend": {
-      "title": "Backend Development",
-      "description": "Agility is the key in the ever-evolving digital world. We adopt agile methodologies to ensure that the development of your backend is fast and effective.",
-      "details": {
-        "plan": {
-          "title": "Plan",
-          "subTitle": {
-            "api": "RESTful API",
-            "database": "Optimized Database",
-            "scalability": "Dynamic Scalability"
-          },
-          "framework": "Node.js Framework",
-          "deployment": "Fast Deployment",
-          "integrationFirebase": "Firebase Integration",
-          "userManagement": "User Management",
-          "databaseCommunication": "Database Communication",
-          "blogPosting": "Dynamic Blog Management",
-          "ecommerce": "E-commerce Platform",
-          "inventoryManagement": "Inventory Management",
-          "orderProcessing": "Order Processing",
-          "customization": "Customizations Specific to the Project"
-        }
-      }
-    },
-    "mobile": {
-      "title": "Mobile Development",
-      "description": "Create amazing experiences for mobile devices. We offer customized solutions to meet your specific needs.",
-      "details": {
-        "plan": {
-          "title": "Plan",
-          "subTitle": {
-            "hybrid": "Hybrid Development",
-            "responsive": "Responsive Design"
-          },
-          "framework": "React Native Framework",
-          "deployment": "Fast Deployment",
-          "integrationFirebase": "Firebase Integration",
-          "userAuthentication": "Secure User Authentication",
-          "offlineSupport": "Offline Support",
-          "pushNotifications": "Push Notifications",
-          "ecommerce": "E-commerce Features",
-          "blogPosting": "Dynamic Blog Posting",
-          "customization": "Customizations Specific to the Project"
-        }
-      }
-    }
   }
 }
-
