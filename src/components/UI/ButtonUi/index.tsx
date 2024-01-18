@@ -8,10 +8,9 @@ interface ButtonUIProps {
   width: string;
   height: string;
   localPath: string;
-  keyItem: string;
 }
 
-const ButtonUI: React.FC<ButtonUIProps> = ({ width, height, text, fontSize, localPath, keyItem }) => {
+const ButtonUI: React.FC<ButtonUIProps> = ({ width, height, text, fontSize, localPath,  }) => {
 
   return (
     <div className={styles.buttonUi} style={{ fontSize, width, height }} >
