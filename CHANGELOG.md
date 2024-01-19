@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Create a link function in buttonUI [Feat-57](https://github.com/DevR0om/web/issues/57)
 - Created projects page [Feat-59](https://github.com/DevR0om/web/issues/59)
 - Create a products page [feat-67](https://github.com/DevR0om/web/issues/59)
+- Create a products footer [Feat-61](https://github.com/DevR0om/web/issues/61)
 - Create a aditional pages and texts [feat-70](https://github.com/DevR0om/web/issues/70)
 
 

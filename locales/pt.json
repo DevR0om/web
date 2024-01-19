@@ -13,11 +13,9 @@
     "buttonProject": "Veja mais",
     "addresstTitle": "Endereço",
     "phoneTitle": "Contato",
-    "emailTitle": "Email",
     "subcontact": "Sapiranga-Rs",
     "subphone": "Tel (51)0000-0000",
-    "emailsub": "Email: email@gmail.com",
-    "subemail": "Digite seu email",
+    "emailsub": "Email: clovisantunes@gmail.com",
   "projects": {
     "titleProjectsFront": "Desenvolvimento Front-End",
     "titleProjectsBack": "Desenvolvimento Back-End",
