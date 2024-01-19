@@ -22,7 +22,7 @@ export default function About({lang}: AboutProps) {
                 <div className={styles.aboutText}>
                     <SubTexts 
                     colorText='black'     
-                    fontSize='24px'
+                    fontSize='18px'
                     text={lang.subAboutText}
                     />
                 </div>

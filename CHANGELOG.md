@@ -37,4 +37,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-Fixed button bug in Main[Fix-73](https://github.com/DevR0om/web/issues/73)
+- Fixed button bug in Main[Fix-73](https://github.com/DevR0om/web/issues/73)
+- Fixed bug in about session[Fix-64](https://github.com/DevR0om/web/issues/64)
