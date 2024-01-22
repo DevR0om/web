@@ -6,7 +6,9 @@
     padding: 2em;
     align-items: center;
     justify-content: space-evenly;
-    background-color: white;
+    svg{
+        margin-right: 8px
+    };
     .contactCard{
         width: 30%;
         height: 100%;

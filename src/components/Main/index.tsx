@@ -6,9 +6,10 @@ import SubTexts from "../UI/SubTexts";
 
 interface MainProps {
   lang: any;
+  id:string;
 }
 
-export default function Main({ lang }: MainProps) {
+export default function Main({ lang, id }: MainProps) {
   return (
     <div className={styles.main_container2}>
       <div className={styles.main_container}></div>

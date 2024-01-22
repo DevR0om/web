@@ -28,7 +28,7 @@ const toRoman = (num: number): string => {
   const romanNumerals = ["I", "II", "III", "IV"];
   return romanNumerals[num - 1] || num.toString();
 };
-
+const backgroundFooter = "var(--colors-secondary-900)"
 const ProductsList: React.FC<ProductsKeyProps> = ({
   lang,
   titleMain,
@@ -101,6 +101,9 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
       </div>
       <Footer 
         lang={lang}
+        background={backgroundFooter}
+        textColor="white"
+        iconColor="white"
       />
     </div>
   );
