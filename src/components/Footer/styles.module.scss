@@ -7,21 +7,49 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
+
+}
+.contactCard{
+    width: 30%;
+    height: 100%;
+    .subcard{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.phoneCard{
+    width: 30%;
+    height: 100%;
+    .sub_box{
+        display: flex;
+        flex-direction: row;
+    }   
+}
+
+@media (max-width:768px) {
+    .phoneCard {
+        width: 50%;
+    }
+}
+@media (max-width:490px) {
+    .footer_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .contactCard{
-        width: 30%;
-        height: 100%;
-        .subcard{
-            display: flex;
-            flex-direction: row;
-        }
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .phoneCard{
-        width: 30%;
-        height: 100%;
-        .sub_box{
-            display: flex;
-            flex-direction: row;
-        }   
+        width: 100%;
+        display: flex;
+        align-items: center;
+       flex-direction: column;
     }
 
 }
