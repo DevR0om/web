@@ -6,10 +6,26 @@ interface navListProps {
 export default function NavList({ lang }: navListProps) {
     return (
         <ul>
-            <li>{lang.init}</li>
-            <li>{lang.about}</li>
-            <li>{lang.services}</li>
-            <li>{lang.contact}</li>
+            <li>
+                <a href='#main'>
+                    {lang.init}
+                </a>
+            </li>
+            <li>
+                <a href='#about'>
+                    {lang.about}
+                </a>
+            </li>
+            <li>
+                <a href='#services'>
+                    {lang.services}
+                </a>
+            </li>
+            <li>
+                <a href='#contact'>
+                    {lang.contact}
+                </a>
+            </li>
         </ul>
     )
 }

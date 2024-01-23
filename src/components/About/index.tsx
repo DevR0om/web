@@ -5,12 +5,13 @@ import styles from './styles.module.scss';
 
 interface AboutProps{
     lang:any
+    id: string;
 }
 
-export default function About({lang}: AboutProps) {
+export default function About({lang, id}: AboutProps) {
     const imgPath = "https://w0.peakpx.com/wallpaper/184/644/HD-wallpaper-css-coding-ultra-computers-hardware-internet-laptop-working-technology-computer-code-programming-software-development-workplace-website-sourcecode.jpg";
     return (
-        <div className={styles.about_container}>
+        <div className={styles.about_container} id={id}>
             <div className={styles.aboutTextContainer}>
                 <div className={styles.titleText}>
                     <TitleText 
