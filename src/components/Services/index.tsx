@@ -4,7 +4,7 @@ import SubTexts from '../UI/SubTexts';
 import TitleText from '../UI/TitleText';
 import styles from './styles.module.scss';
 
-interface ProjectsProps {
+interface ServicesProps {
   lang: any;
   id:string;
 }
@@ -15,7 +15,7 @@ interface PathSrcProps {
   mobile: string;
 }
 
-export default function Projects({ lang, id }: ProjectsProps) {
+export default function Services({ lang, id }: ServicesProps) {
   const pathSrc: PathSrcProps = {
     web: "https://www.blog.omertex.com/wp-content/uploads/2019/11/UI-design-15_optimized.png",
     backend: "https://wallpapercave.com/wp/wp10318694.png",

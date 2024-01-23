@@ -3,7 +3,7 @@ import {getTranslation } from '../../../locales/utils/getTranslation'
 import NavBar from "@/components/Navbar";
 import Main from "@/components/Main";
 import About from "@/components/About";
-import Projects from "@/components/Projects";
+import Projects from "@/components/Services";
 import Footer from "../../components/Footer";
 
 interface pageProps {
