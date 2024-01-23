@@ -6,6 +6,7 @@ import styles from './styles.module.scss';
 
 interface ProjectsProps {
   lang: any;
+  id:string;
 }
 
 interface PathSrcProps {
@@ -14,7 +15,7 @@ interface PathSrcProps {
   mobile: string;
 }
 
-export default function Projects({ lang }: ProjectsProps) {
+export default function Projects({ lang, id }: ProjectsProps) {
   const pathSrc: PathSrcProps = {
     web: "https://www.blog.omertex.com/wp-content/uploads/2019/11/UI-design-15_optimized.png",
     backend: "https://wallpapercave.com/wp/wp10318694.png",
@@ -34,7 +35,7 @@ export default function Projects({ lang }: ProjectsProps) {
   };
 
   return (
-    <div className={styles.projectsContainer}>
+    <div className={styles.projectsContainer} id={id}>
       <div className={styles.textTitle}>
         <TitleText
           colorText='white'
@@ -68,11 +69,10 @@ export default function Projects({ lang }: ProjectsProps) {
               />
             </div>
             <div className={styles.projectButton}>
-              <ButtonUI
-                keyItem={key} 
+              <ButtonUI 
                 fontSize='24px'
-                height={48}
-                width={140}
+                height={'100%'}
+                width={'100%'}
                 text={lang.buttonProject}
                 localPath={`/products/${key}`}
               />

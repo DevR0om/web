@@ -36,7 +36,7 @@ $colors-secondary-700: #06090d;
 --colors-secondary-800: #05070a;
 --colors-secondary-900: black;
 
-$colors-neutral-50: #ffffff;
+--colors-neutral-50: #ffffff;
 --colors-neutral-100: #f7f8f9;
 $colors-neutral-200: #f3f4f6;
 $colors-neutral-300: #eeeff2;
@@ -94,5 +94,9 @@ textarea {
 
 body {
   min-height: 100vh;
-  background: var(--colors-secondary-900)
+  background: var(--colors-secondary-900);
+  a{
+    color: var(--colors-neutral-100);
+    text-decoration: none;
+  }
 }
