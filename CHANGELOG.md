@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Create a responsive footer [Feat-79](https://github.com/DevR0om/web/issues/79)
 - Added navbar functions [78](https://github.com/DevR0om/web/issues/78)
 - Changed name projects for services [85](https://github.com/DevR0om/web/issues/85)
+- Adjusted responsive component about [82](https://github.com/DevR0om/web/issues/82)
 
 
 ### Fixed
