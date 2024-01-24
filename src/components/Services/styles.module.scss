@@ -1,7 +1,7 @@
 .projectsContainer{
     width: 100%;
     height: 36em;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -9,10 +9,7 @@
     margin-top: 2em;
     display: flex;
     flex-direction: row;
-    .projectsItem{
-        width: 20em;
-        height: 24em;
-        margin-left: 2em;
+
         .projectImage{
             width: 100%;
             height: 45%;
@@ -37,5 +34,23 @@
             align-items: center;
             
         }
+    }
+
+.projectsItem{
+    width: 20em;
+    height: 24em;
+    margin-left: 2em;
+}
+
+@media (max-width:950px) {
+    .projectsContainer{
+        height: 100%;
+    }
+    .projectsCard{
+        flex-direction: column;
+    }
+    .projectsItem{
+        width: 80%;
+        margin-bottom: 2em;
     }
 }
