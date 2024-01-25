@@ -57,7 +57,7 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
               text={buttonLang}
             />
           </div>
-          <TitleText colorText="white" fontSize="48px" text={titleMain} />
+          <TitleText colorText="white" fontSize="" text={titleMain} />
         </div>
         <div className={styles.descriptionMain}>
           <div className={styles.imageCard}>
@@ -72,7 +72,7 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
             <div className={styles.titleDescription}>
             <TitleText 
               colorText="white"
-              fontSize="24"
+              fontSize="24px"
               text={descriptionTitle}
             />
             </div>
@@ -100,6 +100,7 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
         ))}
       </div>
       <Footer 
+        id="Footer"
         lang={lang}
         background={backgroundFooter}
         textColor="white"
