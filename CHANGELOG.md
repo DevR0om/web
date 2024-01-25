@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed name projects for services [85](https://github.com/DevR0om/web/issues/85)
 - Adjusted responsive component about [82](https://github.com/DevR0om/web/issues/82)
 - Adjusted responsive card services [81](https://github.com/DevR0om/web/issues/81)
+- Adjusted responsive page services [87](https://github.com/DevR0om/web/issues/8)
 
 
 ### Fixed
