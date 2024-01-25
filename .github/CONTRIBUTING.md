@@ -39,7 +39,5 @@
       │   │     └── utilExample.ts # Files with lowercase first letter
       │   ├── contexts/ # Api consumer handlers Ex: User information and authentication validation
       │   │     └── AuthContext.tsx # Files must start with uppercase letters
-      │   ├── api/  # Project api
-      │   │    └── api.ts
       │   └── i18n.js # i18n configuration 
 ```
