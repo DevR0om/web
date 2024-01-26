@@ -75,6 +75,8 @@ export default function Services({ lang, id }: ServicesProps) {
                 width={'100%'}
                 text={lang.buttonProject}
                 localPath={`/products/${key}`}
+                click={''}
+                target=''
               />
             </div>
           </div>

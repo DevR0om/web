@@ -6,7 +6,6 @@ interface backendProps{
 
 export default async function backend({params}: backendProps){
     const lang = await getTranslation(params.lang);
-    
     const titleMain = lang.products.backend.title;
     const title = lang.products.backend.details.plan.title;
     const subTitle = lang.products.backend.details.plan.subTitle;
