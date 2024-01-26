@@ -9,15 +9,118 @@
     "subAboutText": "Seja bem-vindo à nossa equipe dedicada à transformação de ideias em realidade digital. Com profundo conhecimento em HTML, CSS, e JavaScript, construímos bases sólidas, elevando a experiência do usuário. Utilizando tecnologias modernas como TypeScript, ReactJS, Next.js e Node.js, desenvolvemos soluções eficientes e escaláveis, proporcionando consistência e desempenho excepcionais de ponta a ponta. Estendemos nossa expertise ao mobile, destacando-nos em React Native, Firebase, Sass e Styled Components. Do frontend ao backend, cada linha de código reflete nosso compromisso com a inovação e qualidade. Junte-se a nós nesta jornada, onde a excelência é a norma e cada aplicação é uma experiência marcante.",
     "textButton": "Contate aqui",
     "subMainText": "Do papel à prática.",
-    "projectTitle": "Projetos",
+    "projectTitle": "Serviços",
     "buttonProject": "Veja mais",
-
-    "projects":{
-      "titleProjectsFront": "Desenvolvimento Front-End",
-      "titleProjectsBack": "Desenvolvimento Back-End",
-      "titleProjectsMobile": "Desenvolvimento Mobile",
-      "subtTextProjectFront": "Tecnologias utilizadas no desenvolvimento front-end: React, Next, Typescript, javascript e sass.",
-      "subtTextProjectBack": "Tecnologias utilizadas no desenvolvimento Back end: Nodejs, axios, firebase, prisma e postgresql.",
-      "subtTextProjectMobile": "Tecnologias utilizadas em desenvolvimento mobile: React native, styled components, firebase."
+    "addresstTitle": "Endereço",
+    "phoneTitle": "Contato",
+    "subcontact": "Sapiranga-Rs",
+    "subphone": "Tel (51)99593-0496",
+    "emailsub": "Email: clovisantunes@gmail.com",
+  "projects": {
+    "titleProjectsFront": "Desenvolvimento Front-End",
+    "titleProjectsBack": "Desenvolvimento Back-End",
+    "titleProjectsMobile": "Desenvolvimento Mobile",
+    "subtTextProjectFront": "Tecnologias utilizadas no desenvolvimento front-end: React, Next, Typescript, javascript e sass.",
+    "subtTextProjectBack": "Tecnologias utilizadas no desenvolvimento Back end: Nodejs, axios, firebase, prisma e postgresql.",
+    "subtTextProjectMobile": "Tecnologias utilizadas em desenvolvimento mobile: React native, styled components, firebase."
+  },
+  "products": {
+    "select": "Gostei deste plano",
+    "coin": "R$",
+    "text": "até",
+    "session": "seções",
+    "web": {
+      "title": "Website Profissional",
+      "descriptionTitle": "Sua Marca, Seu Espaço Online",
+      "descriptionSubTitle": "Fale com um desenvolvedor",
+      "descriptionText": "Cada site é único. Somos desenvolvedores especializados e prontos para criar soluções personalizadas que atendam às suas necessidades específicas. Desde plataformas interativas até aplicativos inovadores, para transformar sua visão em uma experiência digital única.",
+      "details": {
+        "plan": {
+          "title": "Plano",
+          "subTitle": {
+            "landing": "Landing Page Simples",
+            "landingPers": "Landing Page Personalizada",
+            "multi": "Multipaginas + blog",
+            "ecommerce": "E-commerce"
+          },
+          "value": {
+            "initial": "350",
+            "mid": "650",
+            "blog": "1.098",
+            "ecommerce": "5.000"
+          },
+          "utils": {
+            "landing": "Landing Page",
+            "template": "Template Profissional",
+            "responsive": "Site adaptado para celular",
+            "domain": "Configuração de dominio no Google.",
+            "blog": "Site de noticias Blog",
+            "ecommerce": "Plataforma de vendas E-commerce"
+          }
+        }
+      }
+    },
+    "backend": {
+      "title": "Desenvolvimento Backend",
+      "descriptionTitle": "A segurança para seu sistema.",
+      "descriptionSubTitle": "Fale com um desenvolvedor",
+      "descriptionText": "A agilidade é a chave no mundo digital em constante evolução. Adotamos metodologias ágeis para garantir que o desenvolvimento do seu backend seja rápido e eficaz. ",
+      "details": {
+        "plan": {
+          "title": "Plano",
+          "subTitle": {
+            "api": "Node.js",
+            "multi": "Gerenciamento de usuarios",
+            "blog": "Backend para site de noticias Blog",
+            "ecommerce": "Back end para E-commerce"
+          },
+          "value": {
+            "initial": "350",
+            "mid": "650",
+            "blog": "1.098",
+            "ecommerce": "5.000"
+          },
+          "utils": {
+            "database": "Prisma",
+            "customization": "Customizações Específicas do Projeto",
+            "databaseCommunication": "Comunicação com Banco de Dados",
+            "userManagement": "Gerenciamento de Usuários",
+            "blogPosting": "Gerenciamento de Blogs Dinâmicos",
+            "ecommerce": "Plataforma de E-commerce"
+          }
+        }
+      }
+    },
+    "mobile": {
+      "title": "Desenvolvimento Mobile",
+      "descriptionTitle": "Seu sistema na palma da sua mâo",
+      "descriptionSubTitle": "Fale com um desenvolvedor",
+      "descriptionText": "Oferecemos sistemas personalizados que se adaptam às necessidades únicas do seu negócio, indo desde eficiência operacional com aplicativos de gestão interna até soluções centradas no cliente. Em um mundo cada vez mais mobile, nossa expertise se destaca na criação de experiências excepcionais para seus clientes e na maximização dos resultados na era mobile. Transforme seus processos internos e surpreenda seus clientes com soluções customizadas que garantem flexibilidade e inovação em todos os aspectos do seu empreendimento. Conte conosco para liderar sua jornada digital e posicionar seu negócio na vanguarda do sucesso na mobilidade.",
+      "details": {
+        "plan": {
+          "title": "Plano",
+          "subTitle": {
+            "aplicationI": "Aplicativo simples",
+            "aplicationII": "Aplicativo + Firebase",
+            "aplicationIII": "Aplicativo + Firebase + Controle de usuarios",
+            "aplicationIV": "Aplicativo E-Commerce"
+          },
+          "value": {
+            "initial": "500",
+            "mid": "1000",
+            "blog": "1.500",
+            "ecommerce": "7.000"
+          },
+          "utils": {
+            "framework": "Framework React Native",
+            "customization": "Customizações Específicas do Projeto",
+            "responsive": "Adptado para diversas telas",
+            "integrationFirebase": "Integração com Firebase",
+            "blogPosting": "Controle de usuarios",
+            "ecommerce": "Funcionalidades de E-commerce"
+        }
+      }
+      }
     }
   }
+}

@@ -1,4 +1,4 @@
-## GiT Task
+## Git Task
 - [?](https://github.com/DevR0om/web/issues/?)
 
 ### Description

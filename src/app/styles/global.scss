@@ -30,14 +30,14 @@ $colors-secondary-100: #b3b4b6;
 $colors-secondary-200: #8e8f92;
 $colors-secondary-300: #5a5c60;
 $colors-secondary-400: #3a3d41;
-$colors-secondary-500: #090c12;
+--colors-secondary-500: #090c12;
 $colors-secondary-600: #080b10;
 $colors-secondary-700: #06090d;
 --colors-secondary-800: #05070a;
 --colors-secondary-900: black;
 
-$colors-neutral-50: #ffffff;
-$colors-neutral-100: #f7f8f9;
+--colors-neutral-50: #ffffff;
+--colors-neutral-100: #f7f8f9;
 $colors-neutral-200: #f3f4f6;
 $colors-neutral-300: #eeeff2;
 $colors-neutral-400: #eaecef;
@@ -57,9 +57,7 @@ $colors-error-600: #e43333;
 $colors-error-700: #b22828;
 $colors-error-800: #8a1f1f;
 $colors-error-900: #691818;
-$colors-secondary: $colors-secondary-500;
 
-$colors-font: $colors-secondary-500;
 $colors-font-secondary: $colors-neutral-800;
 
 $colors-placeholder: $colors-neutral-800;
@@ -96,5 +94,9 @@ textarea {
 
 body {
   min-height: 100vh;
-  background: var(--colors-secondary-900)
+  background: var(--colors-secondary-900);
+  a{
+    color: var(--colors-neutral-100);
+    text-decoration: none;
+  }
 }

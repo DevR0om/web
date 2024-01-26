@@ -1,5 +1,4 @@
 .buttonUi {
-    margin-top: 8px;
     a{
         display: flex;
         align-items: center;
@@ -18,4 +17,5 @@
 .buttonUi:hover a{
     color: var(--colors-secondary-50);
     background-color: var(--colors-secondary-800);
+    border: 1px solid var(--colors-secondary-50);
 }
