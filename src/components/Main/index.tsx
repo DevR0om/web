@@ -22,7 +22,9 @@ export default function Main({ lang, id }: MainProps) {
             height={"100%"}
             width={"100%"}
             text={lang.textButton}
-            localPath="/main"
+            localPath="https://api.whatsapp.com/send?1=pt_BR&phone=5551995930496"
+            target="blank"
+            click={''}
           />
         </div>
       </div>

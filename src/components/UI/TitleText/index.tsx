@@ -9,7 +9,7 @@ interface TitleProps {
 export default function TitleText({ colorText, fontSize, text }: TitleProps) {
 
     return (
-        <h1 className={styles.TitleText} style={{ color: colorText, fontSize, fontFamily: 'Gill Sans' }}>
+        <h1 className={styles.TitleText} style={{ color: colorText, fontSize, fontFamily: 'sans-Serif' }}>
             {text}
         </h1>
     );
