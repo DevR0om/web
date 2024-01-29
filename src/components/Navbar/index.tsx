@@ -4,13 +4,9 @@ import styles from './styles.module.scss';
 
 interface NavbarProps {
     lang: any;
-    home: string;
-    about: string;
-    services: string;
-    contact: string;
 }
 
-export default function NavBar({ lang, home, about, contact,services }: NavbarProps) {
+export default function NavBar({ lang }: NavbarProps) {
     return (
         <div className={styles.nav_container}>
             <div className={styles.logoCard}>
@@ -23,11 +19,7 @@ export default function NavBar({ lang, home, about, contact,services }: NavbarPr
             </div>
             <div className={styles.itemsContainer}>
                 <NavList 
-                    lang={lang}
-                    about={about}
-                    contact={contact}
-                    home={home}
-                    services={services}
+                lang={lang}
                 />
             </div>
         </div>
