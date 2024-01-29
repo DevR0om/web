@@ -5,7 +5,6 @@ import Main from "@/components/Main";
 import About from "@/components/About";
 import Projects from "@/components/Services";
 import Footer from "../../components/Footer";
-
 interface pageProps {
   params: any;
 }
