@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import InputUi from '../UI/InputUi';
 import TitleText from '../UI/TitleText';
 import styles from './styles.module.scss';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 interface ContactProps {
     lang: any;
@@ -16,9 +18,12 @@ export default function ContactForm({ title, service, lang, id }: ContactProps) 
     useEffect(() => {
         setMessage(`Olá, gostaria de contratar o serviço de ${service}-${title}!`);
     }, [title]);
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
 
     return (
-        <div className={styles.contactContainer} id='contact'>
+        <div className={styles.contactContainer} id='contact' data-aos="fade-up">
             <TitleText
                 colorText='white'
                 fontSize=''

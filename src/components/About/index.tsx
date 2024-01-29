@@ -1,7 +1,11 @@
+"use client"
+import { useEffect } from 'react';
 import ImageUi from '../UI/ImageUi';
 import SubTexts from '../UI/SubTexts';
 import TitleText from '../UI/TitleText';
 import styles from './styles.module.scss';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 interface AboutProps{
     lang:any
@@ -10,10 +14,13 @@ interface AboutProps{
 
 export default function About({lang, id}: AboutProps) {
     const imgPath = "https://w0.peakpx.com/wallpaper/184/644/HD-wallpaper-css-coding-ultra-computers-hardware-internet-laptop-working-technology-computer-code-programming-software-development-workplace-website-sourcecode.jpg";
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
     return (
         <div className={styles.about_container} id={id}>
-            <div className={styles.aboutTextContainer}>
-                <div className={styles.titleText}>
+            <div className={styles.aboutTextContainer} data-aos="fade-right">
+                <div className={styles.titleText} >
                     <TitleText 
                     colorText='black'
                     fontSize='48px'
@@ -30,7 +37,7 @@ export default function About({lang, id}: AboutProps) {
 <div></div>
             </div>
 
-            <div className={styles.imgContainer}>
+            <div className={styles.imgContainer} data-aos="fade-left">
             <div className={styles.imageAbout}>
                 <ImageUi 
                 alt='Imagem lateral texto'
