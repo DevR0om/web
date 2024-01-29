@@ -1,4 +1,4 @@
-.mainCard{
+.mainCard {
   width: 100%;
   height: 100%;
   background-color: black;
@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .titleMain{
+  .titleMain {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,34 +15,34 @@
     height: 8em;
     border-bottom: solid 2px var(--colors-neutral-100);
     border-radius: 2px;
-    .buttonCard{
+    .buttonCard {
       width: 16em;
       height: 4em;
     }
   }
-  .descriptionMain{
+  .descriptionMain {
     width: 80%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2em;
-    .imageCard{
+    .imageCard {
       width: 40%;
       height: 100%;
     }
-    .descriptionCard{
+    .descriptionCard {
       display: flex;
       flex-direction: column;
       width: 50%;
-      .titleDescription{
+      .titleDescription {
         display: flex;
         height: 20%;
       }
-      h2{
-        font-weight: 600;
+      h2 {
+        font-weight: 400;
         justify-content: center;
-      align-items: center;
+        align-items: center;
       }
     }
   }
@@ -85,27 +85,88 @@
       justify-content: center;
       align-items: center;
     }
-
     .productInformation {
       width: 100%;
       height: 60%;
     }
-    .utils{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        border-top: solid 1px var(--colors-secondary-500);
-        padding: 1em;
-        height: 15%;
-        h2{
-            font-weight: 700;
-        }
+    .utils {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-top: solid 1px var(--colors-secondary-500);
+      padding: 1em;
+      height: 15%;
+      h2 {
+        font-weight: 700;
+      }
     }
     .productButton {
       width: 100%;
       height: 10%;
       overflow: hidden;
       border-radius: 8px;
+    }
+  }
+}
+.contactEmail{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 950px) {
+  .mainCard {
+    .descriptionMain {
+      .descriptionCard {
+        .titleDescription {
+          height: 100%;
+        }
+      }
+    }
+  }
+  .productsContainer {
+    .productsCard {
+      height: 100%;
+      .utils {
+        height: 20%;
+      }
+      .productButton {
+        height: 3em;
+      }
+    }
+  }
+}
+@media (max-width: 728px) {
+  .mainCard {
+    .titleMain {
+      h1 {
+        margin-left: 2em;
+        font-size: 24px;
+        font-weight: 300;
+      }
+      .buttonCard {
+        width: 70%;
+        height: 4em;
+      }
+    }
+    .descriptionMain {
+      flex-direction: column;
+      .imageCard {
+        width: 100%;
+        height: 80%;
+      }
+      .descriptionCard {
+        width: 100%;
+      }
+    }
+  }
+  .productsContainer {
+    flex-direction: column;
+
+    .productsCard {
+      width: 80%;
+      .productCoin {
+        height: 3em;
+      }
     }
   }
 }

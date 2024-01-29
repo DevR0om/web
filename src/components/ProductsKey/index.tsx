@@ -1,13 +1,15 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import SubTexts from "../UI/SubTexts";
 import TitleText from "../UI/TitleText";
 import styles from "./styles.module.scss";
-import ButtonUI from "../UI/ButtonUi";
+import { ButtonUI, ButtonServices } from "../UI/ButtonUi";
 import { FaCheck } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
 import NavBar from "../Navbar";
 import ImageUi from "../UI/ImageUi";
 import Footer from "../Footer";
+import ContactForm from "../ContactForm";
 
 interface ProductsKeyProps {
   lang: any;
@@ -28,7 +30,9 @@ const toRoman = (num: number): string => {
   const romanNumerals = ["I", "II", "III", "IV"];
   return romanNumerals[num - 1] || num.toString();
 };
-const backgroundFooter = "var(--colors-secondary-900)"
+
+const backgroundFooter = "var(--colors-secondary-50)";
+
 const ProductsList: React.FC<ProductsKeyProps> = ({
   lang,
   titleMain,
@@ -41,11 +45,19 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
   buttonLang,
   textDescription,
   descriptionTitle,
-  imgPath
+  imgPath,
 }) => {
+  const [showContactEmail, setShowContactEmail] = useState(false);
+  const [selectedPlanTitle, setSelectedPlanTitle] = useState("");
+
   return (
     <div className={styles.container}>
-      <NavBar lang={lang} />
+      <NavBar lang={lang} 
+        home="./home"
+        about="./home#about"
+        contact="./home#contact"
+        services="./home#services"
+      />
       <div className={styles.mainCard}>
         <div className={styles.titleMain}>
           <div className={styles.buttonCard}>
@@ -53,15 +65,17 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
               fontSize="16px"
               height="100%"
               width="100%"
-              localPath="teste"
+              localPath="https://api.whatsapp.com/send?1=pt_BR&phone=5551995930496"
               text={buttonLang}
+              target="_blank"
+              click={() => console.log(title)}
             />
           </div>
-          <TitleText colorText="white" fontSize="48px" text={titleMain} />
+          <TitleText colorText="white" fontSize="" text={titleMain} />
         </div>
         <div className={styles.descriptionMain}>
           <div className={styles.imageCard}>
-            <ImageUi 
+            <ImageUi
               alt="Image Site"
               height={1000}
               width={1000}
@@ -70,17 +84,17 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
           </div>
           <div className={styles.descriptionCard}>
             <div className={styles.titleDescription}>
-            <TitleText 
-              colorText="white"
-              fontSize="24"
-              text={descriptionTitle}
-            />
-            </div>
-              <SubTexts 
+              <TitleText
                 colorText="white"
-                fontSize="18px"
-                text={textDescription}
+                fontSize="24px"
+                text={descriptionTitle}
               />
+            </div>
+            <SubTexts
+              colorText="white"
+              fontSize="18px"
+              text={textDescription}
+            />
           </div>
         </div>
       </div>
@@ -96,14 +110,18 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
             util={utils}
             index={index}
             lang={lang}
+            setShowContactEmail={setShowContactEmail}
+            setSelectedPlanTitle={setSelectedPlanTitle}
           />
         ))}
       </div>
-      <Footer 
+      {showContactEmail && <ContactForm title={selectedPlanTitle} service={titleMain} lang={lang} id="contact"/>}
+      <Footer
+        id="Footer"
         lang={lang}
         background={backgroundFooter}
-        textColor="white"
-        iconColor="white"
+        textColor="black"
+        iconColor="black"
       />
     </div>
   );
@@ -117,22 +135,33 @@ const ProductsCard: React.FC<{
   select: string;
   util: string | string[];
   index: number;
-  lang: string
-}> = ({ title, subTitle, value, coin, select, util, index, lang }) => {
+  lang: string;
+  setShowContactEmail: React.Dispatch<React.SetStateAction<boolean>>;
+  setSelectedPlanTitle: React.Dispatch<React.SetStateAction<string>>;
+}> = ({
+  title,
+  subTitle,
+  value,
+  coin,
+  select,
+  util,
+  index,
+  lang,
+  setShowContactEmail,
+  setSelectedPlanTitle,
+}) => {
   const romanNumber = toRoman(index + 1);
 
   const renderIcon = (icon: React.ReactElement) => (
     <div className={styles.utilsIcon}>{icon}</div>
   );
 
+  const titlePlan = `${title} ${romanNumber}`;
+
   return (
     <div className={styles.productsCard} key={romanNumber}>
       <div className={styles.productTitle}>
-        <TitleText
-          colorText="white"
-          fontSize="24px"
-          text={`${title} ${romanNumber}`}
-        />
+        <TitleText colorText="white" fontSize="24px" text={titlePlan} />
         <SubTexts colorText="white" fontSize="16px" text={subTitle} />
       </div>
       <div className={styles.productCoin}>
@@ -144,7 +173,7 @@ const ProductsCard: React.FC<{
         {Array.isArray(util) ? (
           util.map((item, i) => (
             <div className={styles.utils} key={romanNumber}>
-              <SubTexts colorText="black" fontSize="18px" text={item} />
+              <SubTexts colorText="black" fontSize="16px" text={item} />
               {(romanNumber === "I" && i <= 2) ||
               (romanNumber === "II" && i <= 3) ||
               (romanNumber === "III" && i < 5) ||
@@ -155,7 +184,7 @@ const ProductsCard: React.FC<{
           ))
         ) : (
           <div className={styles.utils}>
-            <SubTexts colorText="black" fontSize="18px" text={util as string} />
+            <SubTexts colorText="black" fontSize="8px" text={util as string} />
             {romanNumber === "I" ||
             romanNumber === "III" ||
             romanNumber === "IV"
@@ -165,15 +194,20 @@ const ProductsCard: React.FC<{
         )}
       </div>
       <div className={styles.productButton}>
-        <ButtonUI
+        <ButtonServices
           fontSize="16px"
           height={"100%"}
           width={"100%"}
           text={select}
-          localPath="teste"
+          key={"plan"}
+          contact="#contact"
+          click={() => {
+            setShowContactEmail(true);
+            setSelectedPlanTitle(titlePlan);
+
+          }}
         />
       </div>
-      
     </div>
   );
 };

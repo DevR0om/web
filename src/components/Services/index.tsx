@@ -1,4 +1,5 @@
-import ButtonUI from '../UI/ButtonUi';
+"use client"
+import {ButtonUI} from '../UI/ButtonUi';
 import ImageUi from '../UI/ImageUi';
 import SubTexts from '../UI/SubTexts';
 import TitleText from '../UI/TitleText';
@@ -75,6 +76,8 @@ export default function Services({ lang, id }: ServicesProps) {
                 width={'100%'}
                 text={lang.buttonProject}
                 localPath={`/products/${key}`}
+                click={()=> console.log('')}
+                target=''
               />
             </div>
           </div>
