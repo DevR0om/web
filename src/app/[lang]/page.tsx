@@ -14,7 +14,12 @@ async function Page({params}: pageProps) {
   const backgroundColor = "var(--colors-neutral-50)"
   return (
   <div>
-    <NavBar lang={lang} />
+    <NavBar lang={lang} 
+      home="#home"
+      about="#about"
+      contact="#contact"
+      services="#services"  
+    />
     <Main  lang={lang} id="main"/>
     <About lang={lang} id="about"/>
     <Projects lang={lang} id="services"/>

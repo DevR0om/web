@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import InputUi from '../UI/InputUi';
 import TitleText from '../UI/TitleText';
 import styles from './styles.module.scss';
@@ -6,11 +7,18 @@ interface ContactProps {
     lang: any;
     title: string;
     service: string;
+    id: string;
 }
 
-export default function ContactForm({ title, service, lang }: ContactProps) {
+export default function ContactForm({ title, service, lang, id }: ContactProps) {
+    const [message, setMessage] = useState(`Olá, gostaria de contratar o serviço de ${service}-${title}.`);
+
+    useEffect(() => {
+        setMessage(`Olá, gostaria de contratar o serviço de ${service}-${title}!`);
+    }, [title]);
+
     return (
-        <div className={styles.contactContainer}>
+        <div className={styles.contactContainer} id='contact'>
             <TitleText
                 colorText='white'
                 fontSize=''
@@ -47,7 +55,8 @@ export default function ContactForm({ title, service, lang }: ContactProps) {
                         id="message"
                         name="message"
                         placeholder="Enter your message"
-                        defaultValue={`Olá, gostaria de contratar o serviço de ${service}-${title}!`}
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                         className={styles.textareaField}
                     ></textarea>
                 </div>
