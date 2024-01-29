@@ -59,7 +59,7 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
   return (
     <div className={styles.container}>
       <NavBar lang={lang} 
-        home="./home"
+        home="devroomm.vercel.app"
         about="./home#about"
         contact="./home#contact"
         services="./home#services"

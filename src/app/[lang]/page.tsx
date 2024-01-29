@@ -10,7 +10,7 @@ interface pageProps {
 }
 async function Page({params}: pageProps) {
   const lang = await getTranslation(params.lang)
-  const backgroundColor = "var(--colors-neutral-50)"
+  const backgroundColor = "var(--colors-secondary-50)"
   return (
   <div>
     <NavBar lang={lang} 
