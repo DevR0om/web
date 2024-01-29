@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "i18n": "^0.15.1",
     "negotiator": "^0.6.3",
@@ -22,6 +23,7 @@
     "sass": "^1.69.7"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
