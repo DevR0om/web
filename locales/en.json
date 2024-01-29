@@ -24,6 +24,10 @@
   "enterMessage": "Write your message",
   "message": "Message:",
   "submit" : "Submit",
+  "emailTitle": "Email",
+  "subemail": "Enter your email",
+  "copyright": "©copyringht: All rights reserved. Devroom-2024",
+
   "projects": {
       "titleProjectsFront": "Front-End Development",
       "titleProjectsBack": "Back-End Development",

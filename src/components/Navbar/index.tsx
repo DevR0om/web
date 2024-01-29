@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import LogoUi from '../UI/LogoUi';
 import NavList from '../UI/NavList/index.';
 import styles from './styles.module.scss';
@@ -14,12 +15,14 @@ export default function NavBar({ lang, home, about, contact,services }: NavbarPr
     return (
         <div className={styles.nav_container}>
             <div className={styles.logoCard}>
+                <Link href={home}>
                 <LogoUi
                   alt={'Logo DevRoom'}
                   width={280}
                   height={180}
                   priority={true} 
                 />
+                </Link>
             </div>
             <div className={styles.itemsContainer}>
                 <NavList 
