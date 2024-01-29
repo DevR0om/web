@@ -1,8 +1,7 @@
-"use client"
 import React from "react";
 import styles from "./styles.module.scss";
 import TitleText from "../UI/TitleText";
-import {ButtonUI} from "../UI/ButtonUi";
+import ButtonUI from "../UI/ButtonUi";
 import SubTexts from "../UI/SubTexts";
 
 interface MainProps {
@@ -25,7 +24,7 @@ export default function Main({ lang, id }: MainProps) {
             text={lang.textButton}
             localPath="https://api.whatsapp.com/send?1=pt_BR&phone=5551995930496"
             target="blank"
-            click={()=> console.log('')}
+            click={''}
           />
         </div>
       </div>

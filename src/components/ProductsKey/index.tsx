@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import SubTexts from "../UI/SubTexts";
 import TitleText from "../UI/TitleText";
 import styles from "./styles.module.scss";
-import { ButtonUI, ButtonServices } from "../UI/ButtonUi";
+import ButtonUI from "../UI/ButtonUi";
 import { FaCheck } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
 import NavBar from "../Navbar";
@@ -52,12 +52,7 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
 
   return (
     <div className={styles.container}>
-      <NavBar lang={lang} 
-        home="./home"
-        about="./home#about"
-        contact="./home#contact"
-        services="./home#services"
-      />
+      <NavBar lang={lang} />
       <div className={styles.mainCard}>
         <div className={styles.titleMain}>
           <div className={styles.buttonCard}>
@@ -115,7 +110,7 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
           />
         ))}
       </div>
-      {showContactEmail && <ContactForm title={selectedPlanTitle} service={titleMain} lang={lang} id="contact"/>}
+      {showContactEmail && <ContactForm title={selectedPlanTitle} service={titleMain} lang={lang}/>}
       <Footer
         id="Footer"
         lang={lang}
@@ -194,17 +189,17 @@ const ProductsCard: React.FC<{
         )}
       </div>
       <div className={styles.productButton}>
-        <ButtonServices
+        <ButtonUI
           fontSize="16px"
           height={"100%"}
           width={"100%"}
           text={select}
+          localPath="#"
           key={"plan"}
-          contact="#contact"
+          target="_self"
           click={() => {
             setShowContactEmail(true);
             setSelectedPlanTitle(titlePlan);
-
           }}
         />
       </div>
