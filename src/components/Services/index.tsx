@@ -1,9 +1,12 @@
 "use client"
+import { useEffect } from 'react';
 import {ButtonUI} from '../UI/ButtonUi';
 import ImageUi from '../UI/ImageUi';
 import SubTexts from '../UI/SubTexts';
 import TitleText from '../UI/TitleText';
 import styles from './styles.module.scss';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 interface ServicesProps {
   lang: any;
@@ -35,8 +38,12 @@ export default function Services({ lang, id }: ServicesProps) {
     mobile: lang.projects.subtTextProjectMobile
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className={styles.projectsContainer} id={id}>
+    <div className={styles.projectsContainer} id={id} data-aos="fade-up">
       <div className={styles.textTitle}>
         <TitleText
           colorText='white'

@@ -5,6 +5,7 @@
     height: 100%;
     padding-top: 20px;
     align-items: center;
+
 }
 
 .copyrightCard{
@@ -23,6 +24,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    background-color: var(--colors-secondary-50);
+    transition: all .8 ease-in-out;
+
 }
 .contactCard{
     width: 30%;

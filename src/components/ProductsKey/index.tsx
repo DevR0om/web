@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SubTexts from "../UI/SubTexts";
 import TitleText from "../UI/TitleText";
 import styles from "./styles.module.scss";
@@ -10,6 +10,8 @@ import NavBar from "../Navbar";
 import ImageUi from "../UI/ImageUi";
 import Footer from "../Footer";
 import ContactForm from "../ContactForm";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 interface ProductsKeyProps {
   lang: any;
@@ -49,6 +51,10 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
 }) => {
   const [showContactEmail, setShowContactEmail] = useState(false);
   const [selectedPlanTitle, setSelectedPlanTitle] = useState("");
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
 
   return (
     <div className={styles.container}>
@@ -98,7 +104,7 @@ const ProductsList: React.FC<ProductsKeyProps> = ({
           </div>
         </div>
       </div>
-      <div className={styles.productsContainer}>
+      <div className={styles.productsContainer} data-aos="fade-up" >
         {subTitles.map((subTitle, index) => (
           <ProductsCard
             key={index}
