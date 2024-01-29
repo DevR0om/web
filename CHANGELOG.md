@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Create a aditional pages and texts [feat-70](https://github.com/DevR0om/web/issues/70)
 - Create a responsive footer [Feat-79](https://github.com/DevR0om/web/issues/79)
 - Added navbar functions [78](https://github.com/DevR0om/web/issues/78)
+- Add copyright in footer [102](https://github.com/DevR0om/web/issues/102)
 
 
 ### Fixed
