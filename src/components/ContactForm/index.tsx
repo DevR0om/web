@@ -25,7 +25,7 @@ export default function ContactForm({ title, service, lang, id }: ContactProps) 
                 text='Entre em contato'
             />
             <form
-                action="https://formsubmit.co/clovissantannaa@gmail.com"
+                action="https://formsubmit.co/contactdevrrom@gmail.com"
                 method="POST"
                 className={styles.formContainer}
             >
