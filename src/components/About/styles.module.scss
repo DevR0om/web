@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row;
     padding: 4em;
+    overflow: hidden;
+    transition: all .8 ease-in-out;
     .aboutTextContainer{
         width: 60%;
         height: 100%;

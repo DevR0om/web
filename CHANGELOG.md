@@ -34,10 +34,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Create a aditional pages and texts [feat-70](https://github.com/DevR0om/web/issues/70)
 - Create a responsive footer [Feat-79](https://github.com/DevR0om/web/issues/79)
 - Added navbar functions [78](https://github.com/DevR0om/web/issues/78)
+- Add copyright in footer [102](https://github.com/DevR0om/web/issues/102)
 - Changed name projects for services [85](https://github.com/DevR0om/web/issues/85)
 - Adjusted responsive component about [82](https://github.com/DevR0om/web/issues/82)
 - Adjusted responsive card services [81](https://github.com/DevR0om/web/issues/81)
 - Adjusted responsive page services [87](https://github.com/DevR0om/web/issues/8)
+- Add logo function to home [104](https://github.com/DevR0om/web/issues/104)
+- Added Fade [101](https://github.com/DevR0om/web/issues/101)
+
 
 
 ### Fixed
@@ -45,3 +49,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed button bug in Main[Fix-73](https://github.com/DevR0om/web/issues/73)
 - Fixed bug in about session[Fix-64](https://github.com/DevR0om/web/issues/64)
 - Fixed bug in ButtonUI [Fix-100](https://github.com/DevR0om/web/issues/100)
+- Fixed error in Services [Fix-99](https://github.com/DevR0om/web/issues/99)
+
+

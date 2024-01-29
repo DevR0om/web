@@ -16,8 +16,18 @@
   "subcontact": "Sapiranga-Rs",
   "subphone": "Tel (51)99593-0496",
   "emailsub": "Email: clovisantunes@gmail.com",
+  "copyright": "© copyright: All rights reserved. Devroom-2024",
+  "buy": "Hello, I would like to hire the service of",
+  "enterName": "Enter your name",
+  "enterEmail": "Enter your email",
+  "enterContact": "Entre em contato",
+  "enterMessage": "Write your message",
+  "message": "Message:",
+  "submit" : "Submit",
   "emailTitle": "Email",
   "subemail": "Enter your email",
+  "copyright": "©copyringht: All rights reserved. Devroom-2024",
+
   "projects": {
       "titleProjectsFront": "Front-End Development",
       "titleProjectsBack": "Back-End Development",

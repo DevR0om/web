@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import InputUi from '../UI/InputUi';
 import TitleText from '../UI/TitleText';
 import styles from './styles.module.scss';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 interface ContactProps {
     lang: any;
@@ -11,18 +13,21 @@ interface ContactProps {
 }
 
 export default function ContactForm({ title, service, lang, id }: ContactProps) {
-    const [message, setMessage] = useState(`Olá, gostaria de contratar o serviço de ${service}-${title}.`);
+    const [message, setMessage] = useState(`${lang.buy} ${service}-${title}.`);
 
     useEffect(() => {
-        setMessage(`Olá, gostaria de contratar o serviço de ${service}-${title}!`);
+        setMessage(`${lang.buy} ${service}-${title}!`);
     }, [title]);
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
 
     return (
-        <div className={styles.contactContainer} id='contact'>
+        <div className={styles.contactContainer} id='contact' data-aos="fade-up">
             <TitleText
                 colorText='white'
                 fontSize=''
-                text='Entre em contato'
+                text={lang.enterContact}
             />
             <form
                 action="https://formsubmit.co/clovissantannaa@gmail.com"
@@ -34,7 +39,7 @@ export default function ContactForm({ title, service, lang, id }: ContactProps) 
                         id='name'
                         label='name'
                         labelName='Nome:'
-                        placeholder='Digite seu nome'
+                        placeholder={lang.enterName}
                         type='text'
                         name='name'
                     />
@@ -44,17 +49,17 @@ export default function ContactForm({ title, service, lang, id }: ContactProps) 
                         id='email'
                         label='name'
                         labelName='Email:'
-                        placeholder='Digite seu email'
+                        placeholder={lang.enterEmail}
                         type='text'
                         name='email'
                     />
                 </div>
                 <div className={styles.textareaCard}>
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message">{lang.message}</label>
                     <textarea
                         id="message"
                         name="message"
-                        placeholder="Enter your message"
+                        placeholder={lang.enterMessage}
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                         className={styles.textareaField}
@@ -62,7 +67,7 @@ export default function ContactForm({ title, service, lang, id }: ContactProps) 
                 </div>
                 <div className={styles.submitContainer}>
                     <button className={styles.submitButton} type="submit">
-                        Submit
+                        {lang.submit}
                     </button>
                     <input type="hidden" name="_captcha" value="http://localhost:3000/en/products/"></input>
                     <input type="hidden" name="_next" value="http://localhost:3000/en/products/"></input>

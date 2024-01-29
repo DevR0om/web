@@ -13,9 +13,10 @@ interface FooterProps {
   id: string;
 }
 
-export default function Footer({ lang,background,textColor, iconColor, id }: FooterProps) {
+export default function Footer({ lang, background, textColor, iconColor, id }: FooterProps) {
   return (
-    <div className={styles.footer_container} style={{backgroundColor: background}} id={id}>
+    <div className={styles.footer_container} style={{ backgroundColor: background }} id={id}>
+      <div className={styles.footerCard}>
       <div className={styles.contactCard}>
         <TitleText
           text={lang.addresstTitle}
@@ -23,7 +24,7 @@ export default function Footer({ lang,background,textColor, iconColor, id }: Foo
           fontSize="36px"
         />
         <div className={styles.subcard}>
-          <FaLocationDot color={iconColor}/>
+          <FaLocationDot color={iconColor} />
           <SubTexts colorText={textColor} fontSize="16px" text={lang.subcontact} />
         </div>
       </div>
@@ -31,13 +32,17 @@ export default function Footer({ lang,background,textColor, iconColor, id }: Foo
       <div className={styles.phoneCard}>
         <TitleText text={lang.phoneTitle} colorText={textColor} fontSize="28px" />
         <div className={styles.sub_box}>
-          <FaPhoneAlt color={iconColor}/>
+          <FaPhoneAlt color={iconColor} />
           <SubTexts colorText={textColor} fontSize="16px" text={lang.subphone} />
         </div>
         <div className={styles.sub_box}>
-          <TfiEmail color={iconColor}/>
+          <TfiEmail color={iconColor} />
           <SubTexts colorText={textColor} fontSize="16px" text={lang.emailsub} />
         </div>
+        </div>
+      </div>
+      <div className={styles.copyrightCard}>
+        <SubTexts colorText="white" fontSize="17px" text={lang.copyright} />
       </div>
     </div>
   );
